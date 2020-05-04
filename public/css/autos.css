@@ -1,0 +1,82 @@
+
+@font-face {
+  font-family: GangsterBold;
+  src: url(/data/fonts/GangsterGrotesk-Bold.otf);
+}
+
+@font-face {
+  font-family: GangsterRegular;
+  src: url(/data/fonts/GangsterGrotesk-Regular.otf);
+}
+
+@font-face {
+  font-family: GangsterLight;
+  src: url(/data/fonts/GangsterGrotesk-Light.otf);
+}
+
+html {
+  font-family: GangsterBold, sans-serif;
+  background-image: url("/data/images/redzellballs.gif");
+  background-size: cover;
+}
+
+body {
+  margin: 0 0 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding-right: 1.7vh;
+}
+
+a:hover {
+  cursor: url(/data/images/soccercursor.png), pointer;
+}
+
+.navigation {
+  /* border-style: dashed; */
+  width: 85vh;
+  position: fixed;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  top: 89vh;
+  left: 97vw;
+}
+
+.links {
+  font-size: 3.2vh;
+}
+
+ul {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  overflow: auto;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  text-align: left;
+  font-size: 18pt;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.home {
+  bottom: 10vh;
+  left: 2.5vw;
+  position: fixed;
+  z-index: 2;
+}
+
+.home.text {
+  font-size: 2.3vh;
+  color: white;
+  transform: scale(1, 10);
+  letter-spacing: 0.5vh;
+}

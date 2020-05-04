@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("/data/images/stinktier_comp.jpg");
+  background-color: rgba(0, 0, 0);
+  /* height: 2000px; */
+  /* background-position: 100% 30%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: lighten;
+  position: relative;
+  opacity: 1;
+  font-family: "Gangster Grotesk", sans-serif;
+  color: white;
+}
+
+#imtaxi {
+    background-image: url("/data/images/hornfur_comp.jpg");
+}
+
+#zumbarbiere {
+    background-image: url("/data/images/horn1_comp.jpg");
+}
+
+a {
+  color: yellow;
+}
+
+h1 {
+  font-size: 92pt;
+  margin-left: 5%;
+}
+
+.content p {
+  font-family: "Gangster Grotesk", sans-serif;
+  font-weight: normal;
+  font-size: 16pt;
+  color: white;
+  text-align: justify;
+}
+
+.content-left {
+  margin-right: 60%;
+  margin-left: 5%;
+}
+
+.content-right {
+  margin-right: 5%;
+  margin-left: 60%;
+}
