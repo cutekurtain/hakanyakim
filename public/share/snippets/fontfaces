@@ -1,0 +1,14 @@
+@font-face {
+  font-family: GangsterBold;
+  src: url(/data/fonts/GangsterGrotesk-Bold.otf);
+}
+
+@font-face {
+  font-family: GangsterRegular;
+  src: url(/data/fonts/GangsterGrotesk-Regular.otf);
+}
+
+@font-face {
+  font-family: GangsterLight;
+  src: url(/data/fonts/GangsterGrotesk-Light.otf);
+}
